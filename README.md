@@ -1,6 +1,6 @@
 # ZQuery
 
-This is a small library in the spirit of JQuery, but more vanila feeling and lighter weight.
+This is a small library in the spirit of JQuery, but more vanilla feeling and lighter weight.
 
 ## Usage
 
@@ -9,9 +9,9 @@ The top level function `Z` is the entry point to this framework.
 `Z` can be called the same way as JQuery's `$` function, with a single string parameter of one of the following:
 
 1. A string representing a valid CSS selector, this will select all matching elements
-1. A HTML tag surounded in `<>`, this will create a new element
+1. A HTML tag surrounded in `<>`, this will create a new element
 
-After selecting something, it uses regular JavaScript DOM manipulation, but everything is a function and it allows function chaining. In addition, when there are multiple matched results, any manipulation get's applied to every result.
+After selecting something, it uses regular JavaScript DOM manipulation, but everything is a function and it allows function chaining. In addition, when there are multiple matched results, any manipulation gets applied to every result.
 
 A notable difference from JQuery is that when a value is read from some matched results, ZQuery returns an array of values for each matched element, rather than just the first one.
 
