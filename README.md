@@ -4,6 +4,8 @@ This is a small library in the spirit of JQuery, but more vanilla feeling and li
 
 ## Usage
 
+*Note: This is out of date*
+
 The top level function `Z` is the entry point to this framework.
 
 `Z` can be called the same way as JQuery's `$` function, with a single string parameter of one of the following:
